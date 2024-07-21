@@ -1,0 +1,2 @@
+document.getElementById("contactForm").addEventListener("submit",(function(e){e.preventDefault();const t=document.getElementById("name").value,n=document.getElementById("email").value,m=document.getElementById("message").value;var a;a={name:t,email:n,message:m},console.log("Форма зворотного зв’язку надіслана:",a),alert("Дякуємо за ваше повідомлення!")}));
+//# sourceMappingURL=index.4c53a4c9.js.map
